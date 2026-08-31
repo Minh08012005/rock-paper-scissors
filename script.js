@@ -1,14 +1,13 @@
 function getComputerChoice() {
-    const choices = ["rock", "paper", "scissors"];
     const randomNumber = Math.random();
     if (randomNumber < 0.34) {
-        return choices[0];
+        return "rock";
     }
     else if (randomNumber <= 0.67) {
-        return choices[1];
+        return "paper";
     }
     else {
-        return choices[2];
+        return "scissors";
     }
 }
 
